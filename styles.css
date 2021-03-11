@@ -56,6 +56,8 @@ body {
 }
 
 h1 {
+    position: relative;
+    bottom: 0;
     font-size: 64px;
     color: white;
     text-align: center;
@@ -76,20 +78,55 @@ p {
     margin-right: auto;
 }
 
+fieldset {
+    margin: 8px;
+    border: 1px solid black;
+    padding: 8px;    
+    border-radius: 4px;
+}
+
 main { 
     width: 1004px;
     padding: 10px;
 }
 
+footer{
+    text-align: right;
+    line-height: 150%;  
+}
+
+#fname {
+    width: 970px;
+    height: 28px;
+}
+
+#lemail {
+    width: 970px;
+    height: 28px;
+}
+
+#Message {
+    width: 970px;
+    height: 98px;
+}
+
 header {
     height: 341px;
-    background: pink;
     background-image: url("img/lone-starfish-wide.jpg");
 }
 
 nav {
+    font-size: 24px;
     display: inline;
+    text-align: center;
+    padding-bottom: 3px;
 }
+
+.menu{
+    display: inline;
+    padding: 20px 40px;
+}
+
 li {
     font-size: 16px;
     margin-left: 10px;
@@ -104,4 +141,4 @@ li {
  h4 {
     font-size: 19px;
    line-height: 240%;
-
+ }
