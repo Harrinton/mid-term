@@ -48,13 +48,13 @@ table {
 }
 
 /* MY STYLES */
-
+/*  These are the properties for the body. Fonts and background color   */
 body {
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-
+/* This is the Main Heading properties " Lone Starfish"  */
 h1 {
     position: relative;
     bottom: 0;
@@ -62,15 +62,16 @@ h1 {
     color: white;
     text-align: center;
 }
-
+/* Life Of A Starfish Properties  */
 h2 {
     font-size: 27px; 
 }
-
+/* This is for the paragraph  */
 p { 
    line-height: 150%;  
 }
 
+/*   */
 .container {
     width: 1024px;
     background-color: #d4e9e7;
@@ -78,6 +79,7 @@ p {
     margin-right: auto;
 }
 
+/* This is for the box on the form  */
 fieldset {
     margin: 8px;
     border: 1px solid black;
@@ -89,55 +91,61 @@ main {
     width: 1004px;
     padding: 10px;
 }
-
+/*  footer tag */
 footer{
     text-align: right;
     line-height: 150%;  
 }
-
+/* This is to customize the dimensions of the full name box in the form section  */
 #fname {
     width: 970px;
     height: 28px;
 }
 
+/* This is to customize the dimensions of the email field in the form section  */
 #lemail {
     width: 970px;
     height: 28px;
 }
-
+/* This is for to customize the dimensions and size of the message field in the form section  */
 #Message {
     width: 970px;
     height: 98px;
 }
 
+/* Header Image  */
 header {
     height: 341px;
     background-image: url("img/lone-starfish-wide.jpg");
 }
 
+/* For the navigation  */
 nav {
     font-size: 24px;
     display: inline;
     text-align: center;
     padding-bottom: 3px;
 }
-
+/* For the navigation  */
 .menu{
     display: inline;
     padding: 20px 40px;
 }
 
+/* This gives the ordered list bullet points and also we can customize the list more from here  */
 li {
     font-size: 16px;
     margin-left: 10px;
     list-style-type: circle;
  }
 
+ /*  This is for the subheadings ( Facts about starfish, Contact to learn more */
  h3 {
      font-size: 22px;
     line-height: 250%;  
  }
 
+ /* Survey heading  */
  h4 {
     font-size: 19px;
    line-height: 240%;
