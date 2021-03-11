@@ -134,6 +134,7 @@ nav {
 
 /* This gives the ordered list bullet points and also we can customize the list more from here  */
 li {
+    line-height: 150%;
     font-size: 16px;
     margin-left: 10px;
     list-style-type: circle;
